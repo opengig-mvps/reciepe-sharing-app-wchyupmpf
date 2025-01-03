@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "url": "/api/recipes/route.ts",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/recipes/[recipeId]/route.ts",
+      "type": "api",
+      "status": "success",
+      "method": "PATCH"
+    },
+    {
+      "url": "/api/recipes/search/route.ts",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/users/[userId]/saved-recipes/route.ts",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/users/[userId]/saved-recipes/[recipeId]/route.ts",
+      "type": "api",
+      "status": "success",
+      "method": "DELETE"
+    },
+    {
+      "url": "/dashboard/user/recipes/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "/dashboard/user/recipes/browse/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "public"
+    },
+    {
+      "url": "/dashboard/user/recipes/personalCollection/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "/(auth)/register/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/(auth)/login/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    }
+  ]
+}
